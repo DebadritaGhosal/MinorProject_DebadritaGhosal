@@ -1,4 +1,4 @@
-const apiKey = 'ad24ae52fe551a3668a5656c049105c8';
+const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
 const cityInput = document.getElementById('city-input');
 const searchBtn = document.getElementById('search-btn');
 const locationBtn = document.getElementById('location-btn');
